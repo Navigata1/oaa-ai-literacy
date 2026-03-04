@@ -76,6 +76,29 @@
             max-width: 900px;
         }
 
+        .hero-logo-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-mustang {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(212,160,23,0.5);
+            box-shadow: 0 0 30px rgba(212,160,23,0.3);
+        }
+
+        .hero-oaa-logo {
+            height: 40px;
+            width: auto;
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+        }
+
         .hero-badge {
             display: inline-flex;
             align-items: center;
@@ -89,12 +112,7 @@
             color: var(--oaa-gold-light);
             text-transform: uppercase;
             letter-spacing: 2px;
-            margin-bottom: 2rem;
             backdrop-filter: blur(10px);
-        }
-
-        .hero-badge .mustang-icon {
-            font-size: 1.1rem;
         }
 
         .hero h1 {
@@ -748,9 +766,10 @@
 <!-- ═══════ HERO ═══════ -->
 <section class="hero">
     <div class="hero-content">
-        <div class="hero-badge">
-            <span class="mustang-icon">🐴</span>
-            Oakwood Adventist Academy
+        <div class="hero-logo-group">
+            <img src="./mustang-emblem.png" alt="OAA Mustang" class="hero-mustang">
+            <img src="https://oakwoodadventistacademy.org/wp-content/uploads/oaa-sm-logo3.png" alt="Oakwood Adventist Academy" class="hero-oaa-logo">
+            <div class="hero-badge">Oakwood Adventist Academy</div>
         </div>
         <h1>
             In 1975, Schools Banned Calculators.
@@ -903,7 +922,7 @@
                 <div class="track-emoji">🏠</div>
                 <h3>Parents & Community</h3>
                 <div class="grade">All Ages Welcome</div>
-                <p>Evening and weekend sessions for parents and the broader Huntsville community. From 4 to 90 — if you're willing to learn, there's something here for you.</p>
+                <p>Evening and weekend sessions for parents and the broader Huntsville community. From 4 to 104 — if you're willing to learn, there's something here for you.</p>
             </div>
         </div>
     </div>
